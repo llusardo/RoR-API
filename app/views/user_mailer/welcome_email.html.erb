@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  <table width="100%" align="center">
+      <tr>
+        <tr>
+          <div style="height: 20%;width:100%; align:center; background:#E8A948; border-radius: 5px">
+            <img src="<%=ENV['FRONT_END_ASSETS_URL']%>/ASH-white.png" style="display:block; max-height:100px; max-width:100px; align:center; margin-left:10px; width:auto; height:auto">
+          </div>
+        </tr>
+        <p font="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500">
+          <h2><br/>Bienvenido <%= @user.first_name%>,</h2><br/><br/>
+        </p>
+        <p font="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500">
+          <font size="3">
+            Tu solicitud de creación de cuenta ha sido recibida.<br/>
+            Se te enviará un mail cuando el administrador active tu cuenta y puedas iniciar sesión.
+            <br/><br/><br/><br/>
+          </font>
+        </p>
+        <div style="height:4px; width:100%; align:center; background:#E8A948">
+        </div>
+      </tr>
+  </table>
+</html>
